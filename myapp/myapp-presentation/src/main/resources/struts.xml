@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+
+    <package name="basicstruts2" extends="struts-default">
+        <action name="index" class="" method="login">
+            <result>/index.jsp</result>
+        </action>
+        <action name="saisieaffaire">
+            <result>/SaisieAffaire.jsp</result>
+        </action>
+        <action name="facture">
+            <result>/facture.jsp</result>
+        </action>
+        <action name="recouvrement">
+            <result>/recouvrement.jsp</result>
+        </action>
+    </package>
+
+</struts>
